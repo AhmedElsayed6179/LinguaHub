@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learn Languages Online</title>
+    <!-- Main Template CSS File -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Render All Elements Normally -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="icon/english.png" type="image/x-icon">
+    <!-- Font Awesome for social icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <canvas id="dynamic-bg"></canvas>
+    <!-- HEADER -->
+    <header>
+        <div class="site-logo">
+            <img src="icon/eng.png" alt="LinguaHub Logo" />
+            <a href="#home">LinguaHub</a>
+        </div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about_section">About</a>
+            <a href="#contact">Contact</a>
+            <a href="#service">Service</a>
+            <a class="btn-primary" href="SignUp_LogIn_Form.html">Login</a>
+        </nav>
+
+        <!-- Hamburger menu for mobile view -->
+        <div class="hamburger-menu" aria-label="Toggle navigation menu" role="button" tabindex="0">
+            <svg width="35" height="35" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4 18L20 18" stroke="#000" stroke-width="2" stroke-linecap="round" />
+                <path d="M4 12L20 12" stroke="#000" stroke-width="2" stroke-linecap="round" />
+                <path d="M4 6L20 6" stroke="#000" stroke-width="2" stroke-linecap="round" />
+            </svg>
+        </div>
+    </header>
+    <!-- HERO / LANDING SECTION -->
+    <section id="home" class="home_page reveal">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Start Your English Learning Journey</h1>
+                <p>
+                    Learn English easily and effectively. Our platform offers simple lessons,
+                    interactive exercises, and fun quizzes to help you practice and improve every day.
+                    Join now and open the door to new opportunities and experiences!
+                </p>
+                <div class="hero-actions">
+                    <a class="btn-outline" href="SignUp_LogIn_Form.html">Get Started</a>
+                    <a class="btn-fill" href="#visit">Learn More</a>
+                </div>
+            </div>
+            <div class="learning">
+                <img src="img/tips-to-learn-English-blog.webp" alt="learn-English">
+            </div>
+        </div>
+    </section>
+    <hr>
+    <!-- WHO WE ARE SECTION -->
+    <section id="about" class="who-we-are reveal">
+        <div class="container">
+            <h2>Who We Are?</h2>
+            <p>
+                LinguaHub makes learning English easy, effective, and fun for everyone.
+            </p>
+
+            <div class="info-cards">
+                <div class="card">
+                    <div class="emoji">🎓</div>
+                    <p>
+                        Our passionate team ensures English learning is accessible and enjoyable.
+                    </p>
+                </div>
+                <div class="card">
+                    <div class="emoji">📚</div>
+                    <p>
+                        Interactive lessons, practical exercises, and AI tools help you achieve fluency.
+                    </p>
+                </div>
+                <div class="card">
+                    <div class="emoji">👩‍🏫</div>
+                    <p>
+                        Expert instructors and tech enthusiasts guide you every step of the journey.
+                    </p>
+                </div>
+                <div class="card">
+                    <div class="emoji">🌟</div>
+                    <p>
+                        We value innovation, accessibility, and a supportive learning community.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <!-- ABOUT US SECTION -->
+    <section id="about_section" class="about-us reveal">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>
+                LinguaHub helps you learn English easily and confidently with expert instructors and interactive
+                lessons.
+            </p>
+            <div class="about-cards">
+                <div class="card">
+                    <h3>Our Mission</h3>
+                    <p>
+                        Founded in 2024, LinguaHub combines innovative technology with expert English educators to
+                        provide interactive lessons and personalized learning paths.
+                    </p>
+                </div>
+                <div class="card">
+                    <h3>Our Vision</h3>
+                    <p>
+                        We believe learning English opens doors to new cultures, friendships, and global opportunities
+                        for everyone.
+                    </p>
+                </div>
+                <div class="card">
+                    <h3>Our Team</h3>
+                    <p>
+                        Passionate linguists, experienced teachers, and tech enthusiasts guide learners through
+                        meaningful and practical English learning experiences.
+                    </p>
+                </div>
+                <div class="card">
+                    <h3>Our Values</h3>
+                    <p>
+                        Accessibility, innovation, and community support are at the core of everything we do, ensuring a
+                        welcoming environment for all learners.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <!-- SERVICE SECTION -->
+    <section id="service" class="services reveal">
+        <div class="container">
+            <h2>Our Services</h2>
+            <p class="section-intro">
+                At LinguaHub, we provide modern, interactive, and enjoyable English learning services tailored for every
+                learner.
+            </p>
+            <div class="service-grid">
+                <div class="service-card">
+                    <div class="icon"><i class="fas fa-chalkboard-teacher"></i></div>
+                    <h3>Interactive Lessons</h3>
+                    <p>Engaging English lessons with videos, audio, and real-life dialogues customized to your level.
+                    </p>
+                </div>
+                <div class="service-card">
+                    <div class="icon"><i class="fas fa-pencil-alt"></i></div>
+                    <h3>Practice Exercises</h3>
+                    <p>Reinforce what you learn with grammar drills, conversation simulations, and practical tasks.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon"><i class="fas fa-clipboard-check"></i></div>
+                    <h3>Fun Quizzes</h3>
+                    <p>Test your skills with quizzes, challenges, and games while tracking your progress easily.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon"><i class="fas fa-users"></i></div>
+                    <h3>Community Support</h3>
+                    <p>Connect with peers worldwide, practice English, join discussions, and get expert guidance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact reveal">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Have questions? Reach out to us on social media or send us a message.</p>
+
+            <div class="contact-form-container">
+                <div class="contact-box">
+                    <h2>Send Us a Message</h2>
+                    <form class="contact-form">
+                        <div class="row">
+                            <input type="text" id="my_name" placeholder="Full Name" required>
+                            <input type="email" id="my_email" placeholder="Email Address" required>
+                        </div>
+                        <input type="text" id="my_subject" placeholder="Subject" required>
+                        <textarea id="my_message" placeholder="Write your message here" required></textarea>
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="social-icons">
+                <a href="#" aria-label="Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="Twitter" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="#" aria-label="LinkedIn" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <!-- VISIT US SECTION -->
+    <section id="visit" class="visit-us reveal">
+        <div class="container">
+            <h2>Visit Us</h2>
+            <div class="visit-content">
+                <div class="contact-details">
+                    <p>
+                        If you’d like to learn more about LinguaHub, we invite you to visit our branch at your
+                        convenience — we’re excited to welcome you!
+                    </p>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> <strong>Address :</strong> AAST (A), Alexandria, Egypt
+                        </li>
+                        <li><i class="fas fa-phone-alt"></i> <strong>Phone :</strong> +20 123 456 7890</li>
+                        <li><i class="fas fa-envelope"></i> <strong>Email :</strong> contact@linguahub.com</li>
+                    </ul>
+                </div>
+                <div class="map-container">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3408.852530879723!2d30.061224375397!3d31.307820774311946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f5d1877c62bc8b%3A0x5e13f73f62d21a9e!2sAAST%20(A)!5e0!3m2!1sen!2seg!4v1757014105269!5m2!1sen!2seg"
+                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-content">
+                <p>&copy; 2025 <a href="#"><strong>LinguaHub</strong></a>. All rights reserved.</p>
+                <ul class="social-links">
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!-- Linked external JavaScript file named script.js -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>

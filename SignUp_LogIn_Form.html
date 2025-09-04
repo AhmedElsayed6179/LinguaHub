@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Signup Form</title>
+    <!-- Main Template CSS File -->
+    <link rel="stylesheet" href="css/SignUp_LogIn_Form.css">
+    <!-- Boxicons CSS for icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Render All Elements Normally -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="icon/login.png" type="image/x-icon">
+</head>
+
+<body>
+    <canvas id="dynamic-bg"></canvas>
+    <!-- HEADER -->
+    <header>
+        <div class="site-logo">
+            <img src="icon/eng.png" alt="LinguaHub Logo" />
+            <a href="index.html">LinguaHub</a>
+        </div>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="index.html">About</a>
+            <a href="index.html">Contact</a>
+            <a href="index.html">Service</a>
+            <a class="btn-primary" href="SignUp_LogIn_Form.html">Login</a>
+        </nav>
+
+        <!-- Hamburger menu for mobile view -->
+        <div class="hamburger-menu" aria-label="Toggle navigation menu" role="button" tabindex="0">
+            <svg width="35" height="35" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4 18L20 18" stroke="#000" stroke-width="2" stroke-linecap="round" />
+                <path d="M4 12L20 12" stroke="#000" stroke-width="2" stroke-linecap="round" />
+                <path d="M4 6L20 6" stroke="#000" stroke-width="2" stroke-linecap="round" />
+            </svg>
+        </div>
+    </header>
+    <!-- Login Form -->
+    <div class="container">
+        <div class="form-box login">
+            <form action="#">
+                <h1>Login</h1>
+                <div class="input-box">
+                    <input type="text" placeholder="Username" required>
+                    <i class='bx bxs-user'></i>
+                </div>
+                <div class="input-box">
+                    <input type="password" placeholder="Password" required>
+                    <i class='bx bxs-lock-alt'></i>
+                </div>
+                <div class="forgot-link">
+                    <a href="#" class="forget-btn">Forgot Password?</a>
+                </div>
+                <button type="submit" class="btn">Login</button>
+                <p>or login with social platforms</p>
+                <div class="social-icons">
+                    <a href="#"><i class='bx bxl-google'></i></a>
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-github'></i></a>
+                    <a href="#"><i class='bx bxl-linkedin'></i></a>
+                </div>
+            </form>
+        </div>
+        <!-- Register Form -->
+        <div class="form-box register">
+            <form action="#">
+                <h1>Registration</h1>
+                <div class="input-box">
+                    <input type="text" placeholder="Username" required>
+                    <i class='bx bxs-user'></i>
+                </div>
+                <div class="input-box">
+                    <input type="email" placeholder="Email" required>
+                    <i class='bx bxs-envelope'></i>
+                </div>
+                <div class="input-box">
+                    <input type="password" placeholder="Password" required>
+                    <i class='bx bxs-lock-alt'></i>
+                </div>
+                <button type="submit" class="btn">Register</button>
+                <p>or register with social platforms</p>
+                <div class="social-icons">
+                    <a href="#"><i class='bx bxl-google'></i></a>
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-github'></i></a>
+                    <a href="#"><i class='bx bxl-linkedin'></i></a>
+                </div>
+            </form>
+        </div>
+        <!-- Forgot your password Form -->
+        <div class="form-box forget" id="form-box forget">
+            <form action="#">
+                <h1>Forgot your password?</h1>
+                <p>Enter your email to reset your password easily.</p>
+                <div class="input-box">
+                    <input type="email" placeholder="Email" required>
+                    <i class='bx bxs-envelope'></i>
+                </div>
+                <div class="forgot-link">
+                    <p>Remembered your password? <a href="#" class="login-btn"><b>Log In</b></a></p>
+                </div>
+                <button type="submit" class="btn">Reset Password</button>
+            </form>
+        </div>
+
+        <div class="toggle-box">
+            <div class="toggle-panel toggle-left">
+                <h1>Hello, Welcome!</h1>
+                <p>Don't have an account?</p>
+                <button class="btn register-btn">Register</button>
+                <button class="btn forget-btn">Forgot Password?</button>
+            </div>
+
+            <div class="toggle-panel toggle-right">
+                <h1>Welcome Back!</h1>
+                <p>Already have an account?</p>
+                <button class="btn login-btn">Login</button>
+            </div>
+        </div>
+
+    </div>
+    <!-- External JS -->
+    <script src="js/SignUp_LogIn_Form.js"></script>
+</body>
+
+</html>
